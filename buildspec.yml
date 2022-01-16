@@ -1,3 +1,14 @@
-build:
-  commands:
-    - npm install
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - npm install
+
+artifacts:
+  files:
+    - src/*
+    - package.json
+    - tsconfig.json
+    - node_modules/**/*
+    - public/*
