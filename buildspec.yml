@@ -7,8 +7,4 @@ phases:
 
 artifacts:
   files:
-    - src/*
-    - package.json
-    - tsconfig.json
-    - node_modules/**/*
-    - public/*
+    - '**/*'
